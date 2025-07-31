@@ -3,6 +3,11 @@ from tkinter import ttk, filedialog, messagebox
 import requests
 import os
 
+"""
+This file contains the main GUI application for the Fashion-MNIST classifier.
+It allows users to upload images and get predictions from the API.
+The code here is just a simple interface that interacts with a backend API.
+"""
 class FashionClassifier:
     def __init__(self):
         self.root = tk.Tk()
